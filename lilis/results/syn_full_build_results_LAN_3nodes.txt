@@ -1,0 +1,100 @@
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 47872
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 66358
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 46356
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 40645
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 39851
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 48861
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 68247
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 62556
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 40368
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 45838
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 51945
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 72889
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 49619
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 41392
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 41932
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 50187
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 69918
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 48391
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 40794
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 42084
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 50613
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 68908
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 47788
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 41449
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 42166
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 50837
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 71431
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 48474
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 41628
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 44150
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 50291
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 70423
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 48098
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 42349
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 44295
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 51060
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 68789
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 48466
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 45044
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 42894
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 50529
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 69985
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 48166
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 43070
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 41974
+--------------------------------------syn_fullbuild QPIndexBuild:
+Index build time : 48023
+--------------------------------------syn_fullbuild KPIndexBuild:
+Index build time : 70014
+--------------------------------------syn_fullbuild RPIndexBuild:
+Index build time : 48185
+--------------------------------------syn_fullbuild FPIndexBuild:
+Index build time : 44481
+--------------------------------------syn_fullbuild APIndexBuild:
+Index build time : 41867

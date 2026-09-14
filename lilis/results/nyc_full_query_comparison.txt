@@ -1,0 +1,61 @@
+======================================================================
+QUERY BENCHMARK — nyc_full
+LiLIS-K runs=15 | No-index runs=10 | Warmup=2
+TOTAL_N=46,475,157 | TOTAL_AREA=5.3696 sq-deg
+Query points: 50 random via takeSample(seed=42)
+======================================================================
+
+## SECTION 1 — Default Summary (k=10, sel=0.001%)
+----------------------------------------------------------------------
+Query                        Avg(ms)        Min        Max        Std
+-----------------------------------------------------------------
+Point  LiLIS-K                 780.3        398       4039      875.6
+Point  No-index               5926.3       5398       7573      825.0
+
+Range  LiLIS-K (def)           743.1        344       1956      485.1
+Range  No-index (def)         6007.3       5497       7568      728.5
+
+kNN    LiLIS-K (k=10)          565.5        356       1026      172.7
+kNN    No-index (k=10)        6060.0       5286       8264     1044.7
+
+SPEEDUP (No-index / LiLIS-K):
+  Point : 7.6x
+  Range : 8.1x
+  kNN   : 10.7x
+
+
+## SECTION 2 — kNN Sweep (Figure 8)
+----------------------------------------------------------------------
+k,method,avg_ms,min_ms,max_ms,std_ms
+1,LiLIS-K,574.7,401,1396,235.0
+1,No-index,5888.7,5235,7936,960.8
+10,LiLIS-K,565.5,356,1026,172.7
+10,No-index,6060.0,5286,8264,1044.7
+50,LiLIS-K,657.3,429,1297,238.2
+50,No-index,6103.4,5429,7825,849.0
+100,LiLIS-K,864.6,366,2394,475.6
+100,No-index,5942.0,5613,7547,564.2
+
+
+## SECTION 3 — Range Selectivity Sweep (Figure 7)
+----------------------------------------------------------------------
+selectivity,range_half,method,avg_ms,min_ms,max_ms,std_ms
+0.00001%,0.000366,LiLIS-K,653.6,432,912,153.3
+0.00001%,0.000366,No-index,5865.2,5475,7794,655.0
+0.0001%,0.001159,LiLIS-K,896.2,545,2399,498.1
+0.0001%,0.001159,No-index,6023.4,5535,7520,737.8
+0.001%,0.003664,LiLIS-K,743.1,344,1956,485.1
+0.001%,0.003664,No-index,6007.3,5497,7568,728.5
+0.01%,0.011586,LiLIS-K,869.4,490,2645,678.7
+0.01%,0.011586,No-index,6230.0,5567,7862,817.4
+0.1%,0.036639,LiLIS-K,721.3,499,2467,469.9
+0.1%,0.036639,No-index,5761.1,5312,7400,597.1
+
+
+## SECTION 4 — Paper Reference
+----------------------------------------------------------------------
+Takeaway 1: LiLIS nhanh hơn 2-3 orders of magnitude vs Sedona
+Table III (NYC, LiLIS-K):
+  Point :  82.59 ms | Range : 468.64 ms | kNN : 650.20 ms
+Figure 8 (kNN varying k): stable across k=1→100 for LiLIS-K
+Figure 7 (Range selectivity): uniform < skewed for LiLIS

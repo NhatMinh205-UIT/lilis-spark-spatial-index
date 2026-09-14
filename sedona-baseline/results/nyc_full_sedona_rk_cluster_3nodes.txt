@@ -1,0 +1,45 @@
+======================================================================
+SEDONA-RK BASELINE — nyc_full
+Index:       R-tree  (IndexType.RTREE)
+Partitioner: KD-tree (GridType.KDBTREE)
+Cluster:     3 nodes LAN
+Runs=15 | Warmup=2 | kNN k=10
+======================================================================
+
+## BUILD TIME (Figure 9)
+-------------------------------------------------------
+  Sedona-RK build:     94,761ms (94.8s)
+  Paper ref:           ~100,000ms (~100s)
+  LiLIS-K build NYC:   ~38,314ms  (~38s)
+  LiLIS vs Sedona-RK:  2.5x faster to build
+
+## QUERY TIME — Cluster LAN 3 nodes
+----------------------------------------------------------------------
+Query                     Avg(ms)        Min        Max        Std
+------------------------------------------------------------
+Point  Sedona-RK          13927.2      11657      17344     1475.1
+Range  Sedona-RK          13119.7      10662      15981     1428.9
+kNN    Sedona-RK          12683.3      10807      15448     1510.9
+
+## SPEEDUP: LiLIS-K vs Sedona-RK (cluster 3 nodes)
+----------------------------------------------------------------------
+LiLIS-K NYC cluster (nyc_full_query_comparison.txt):
+  Point: 780ms | Range: 743ms | kNN: 566ms
+
+  Point : LiLIS 780ms  vs Sedona-RK 13,927ms → LiLIS 17.9x faster
+  Range : LiLIS 743ms  vs Sedona-RK 13,120ms → LiLIS 17.7x faster
+  kNN   : LiLIS 566ms  vs Sedona-RK 12,683ms → LiLIS 22.4x faster
+
+## TABLE IV COMPARISON (kNN queries)
+----------------------------------------------------------------------
+Paper Table IV — kNN NYC:
+  LiLIS-K:   650ms | Sedona-RK: 790,993ms | Speedup: 1,217x
+  Nhóm:      566ms | Sedona-RK: 12,683ms     | Speedup: 22x
+
+## PAPER REFERENCE
+----------------------------------------------------------------------
+Figure 4 (NYC 300M): Sedona-RK ~10^5ms (log scale)
+Figure 9: Sedona-RK build ~100s | LiLIS-K ~50s → 2x faster
+Table IV: Sedona-RK kNN CHI=7,862ms | NYC=790,993ms | SYN=83,170ms
+Takeaway 1: LiLIS outperforms by 2-3 orders of magnitude
+Takeaway 5: LiLIS builds faster than Sedona (1.5-2x)

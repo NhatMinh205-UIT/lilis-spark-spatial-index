@@ -1,0 +1,17 @@
+============================================================
+NYC 46.5M — CLUSTER LAN (3 nodes)
+Nodes: 192.168.0.202 | 192.168.0.59 | 192.168.0.169
+Runs: 10 | executor-memory: 6g | executor-cores: 3
+============================================================
+Variant        Avg(ms)     Min     Max     Std
+--------------------------------------------------
+LiLIS-Q          32002   31076   32954     677
+LiLIS-K          38314   37146   39698     831
+LiLIS-R          29590   27811   30302     757
+LiLIS-F          27238   25529   28205     814
+LiLIS-A          27302   25713   28332     857
+
+Thứ tự: LiLIS-F(27s) < LiLIS-A(27s) < LiLIS-R(29s) < LiLIS-Q(32s) < LiLIS-K(38s)
+
+Paper reference (Figure 9, NYC):
+  LiLIS-K: ~50,000ms | LiLIS-F: ~102,000ms

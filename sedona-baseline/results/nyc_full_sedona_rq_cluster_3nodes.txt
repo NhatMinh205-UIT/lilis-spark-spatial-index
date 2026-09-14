@@ -1,0 +1,19 @@
+======================================================================
+SEDONA-RQ BASELINE — nyc_full
+Index:       R-tree (IndexType.RTREE)
+Partitioner: Quad-tree (GridType.QUADTREE)
+Runs=15 | Warmup=2
+======================================================================
+
+## BUILD TIME
+  Sedona-RQ build: 137,758ms (137.8s)
+
+## QUERY TIME
+Query                     Avg(ms)        Min        Max        Std
+------------------------------------------------------------
+Point  Sedona-RQ          14733.2      13223      16386     1168.9
+Range  Sedona-RQ          14808.5      12808      16751     1490.9
+kNN    Sedona-RQ          13978.6      12767      16280     1135.8
+
+## SPEEDUP CHECK (Lưu ý: Chỉ đối chiếu cùng môi trường Local/LAN)
+So sánh tốc độ Query với LiLIS-K để xem R-Tree có đấu lại được Learned Index ở bài test kNN hay không.

@@ -1,0 +1,8 @@
+NYC BUILD — CLUSTER 2 NODES (10 runs)
+Variant            Avg     Min     Max     Std
+------------------------------------------
+LiLIS-Q          56854   53872   60879    2533
+LiLIS-K          69968   65612   75867    3158
+LiLIS-R          49622   46443   54721    2964
+LiLIS-F          43777   39824   54871    4489
+LiLIS-A          45138   42015   49707    2557

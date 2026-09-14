@@ -1,0 +1,17 @@
+============================================================
+SYN 100M — CLUSTER LAN (3 nodes)
+Nodes: 192.168.0.202 | 192.168.0.59 | 192.168.0.169
+Runs: 10 | executor-memory: 6g | executor-cores: 4
+============================================================
+Variant        Avg(ms)     Min     Max     Std
+--------------------------------------------------
+LiLIS-Q          50022   47872   51945    1338
+LiLIS-K          69696   66358   72889    1784
+LiLIS-R          49610   46356   62556    4619
+LiLIS-F          42122   40368   45044    1609
+LiLIS-A          42705   39851   45838    1671
+
+Thứ tự: LiLIS-F(42s) < LiLIS-A(42s) < LiLIS-R(49s) < LiLIS-Q(50s) < LiLIS-K(69s)
+
+Paper reference (Figure 9, SYN):
+  LiLIS-Q: ~139,000ms | LiLIS-K: ~107,000ms | LiLIS-F: ~102,000ms

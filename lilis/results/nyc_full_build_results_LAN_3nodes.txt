@@ -1,0 +1,100 @@
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 31270
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 37352
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 29156
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 27244
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 25713
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 31518
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 37146
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 29037
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 26825
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 26789
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 31974
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 38306
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 29877
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 27883
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 27295
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 31282
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 38375
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 30152
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 26790
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 27708
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 31076
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 37537
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 27811
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 26817
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 27878
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 32215
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 38189
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 29603
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 25529
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 28034
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 32550
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 39440
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 30302
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 28018
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 27698
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 32954
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 38573
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 30273
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 27955
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 28332
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 32724
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 39698
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 29871
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 27109
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 27503
+--------------------------------------nyc_fullbuild QPIndexBuild:
+Index build time : 32454
+--------------------------------------nyc_fullbuild KPIndexBuild:
+Index build time : 38527
+--------------------------------------nyc_fullbuild RPIndexBuild:
+Index build time : 29817
+--------------------------------------nyc_fullbuild FPIndexBuild:
+Index build time : 28205
+--------------------------------------nyc_fullbuild APIndexBuild:
+Index build time : 26066

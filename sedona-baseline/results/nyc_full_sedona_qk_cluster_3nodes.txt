@@ -1,0 +1,42 @@
+======================================================================
+SEDONA-QK BASELINE — nyc_full
+Index:       Quad-tree (IndexType.QUADTREE)
+Partitioner: KD-tree   (GridType.KDBTREE)
+Cluster:     3 nodes LAN
+Runs=15 | Warmup=2
+NOTE: kNN NOT supported by Quad-tree index → N/A
+======================================================================
+
+## BUILD TIME (Figure 9)
+-------------------------------------------------------
+  Sedona-QK build:     73,163ms (73.2s)
+  Paper ref:           ~80,000ms (~80s)
+  LiLIS-K build NYC:   ~38,314ms (~38s)
+  LiLIS vs Sedona-QK:  1.9x faster
+
+## QUERY TIME — Cluster LAN 3 nodes (Figure 4)
+----------------------------------------------------------------------
+Query                     Avg(ms)        Min        Max        Std
+------------------------------------------------------------
+Point  Sedona-QK           9868.2       8790      13552     1186.6
+Range  Sedona-QK           9481.5       9020      10391      446.6
+kNN    Sedona-QK              N/A
+
+## SPEEDUP: LiLIS-K vs Sedona-QK (NYC cluster)
+----------------------------------------------------------------------
+LiLIS-K NYC: Point=780ms | Range=743ms
+
+  Point: LiLIS 780ms vs Sedona-QK 9,868ms → 12.7x faster
+  Range: LiLIS 743ms vs Sedona-QK 9,482ms → 12.8x faster
+  kNN  : N/A
+
+## PAPER REFERENCE (Figure 4, Figure 9)
+----------------------------------------------------------------------
+Figure 4: Sedona-QK ~10^4ms (log scale)
+Figure 9: Sedona-QK build ~80s
+
+## SO SÁNH NỘI BỘ SEDONA-QK vs QQ
+----------------------------------------------------------------------
+Sedona-QQ NYC: Point=9,286ms | Range=9,889ms
+Sedona-QK NYC: Point=9868ms   | Range=9482ms
+Diff (QK vs QQ): KD-tree partitioner vs Quad-tree

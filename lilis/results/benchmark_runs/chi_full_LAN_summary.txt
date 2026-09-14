@@ -1,0 +1,24 @@
+============================================================
+CHI 7.7M — CLUSTER LAN (3 nodes: 1 Master + 2 Workers)
+Nodes: 192.168.0.202 (Master) | 192.168.0.59 (Huy) | 192.168.0.169 (Hùng)
+Runs: 10 | executor-memory: 8g | executor-cores: 4
+============================================================
+Variant         Avg(ms)      Min      Max      Std
+--------------------------------------------------
+LiLIS-Q           17618    16176    19114     1304
+LiLIS-K           20363    18804    21739     1146
+LiLIS-R           17721    16223    19200     1046
+LiLIS-F           17215    15879    18433     1043
+LiLIS-A           17129    15637    18618     1079
+
+Thứ tự (nhanh → chậm):
+  LiLIS-A(17s) < LiLIS-F(17s) < LiLIS-Q(17s) < LiLIS-R(17s) < LiLIS-K(20s)
+
+So sánh với Local[*] (1 máy):
+Variant       Local(ms)    LAN(ms)   Thay đổi
+---------------------------------------------
+LiLIS-Q            8896      17618 +    98.0%
+LiLIS-K            7607      20363 +   167.7%
+LiLIS-R            4771      17721 +   271.4%
+LiLIS-F            3236      17215 +   432.0%
+LiLIS-A            3532      17129 +   385.0%

@@ -1,0 +1,35 @@
+======================================================================
+SPARK VANILLA BASELINE — nyc_full
+Mode:    Brute-force RDD filter (NO index, NO Sedona)
+Cluster: 3 nodes LAN
+Runs=15 | Warmup=2
+======================================================================
+
+## QUERY TIME — Cluster LAN 3 nodes (Figure 4)
+----------------------------------------------------------------------
+Query                     Avg(ms)        Min        Max        Std
+------------------------------------------------------------
+Point  Spark               2841.8       2765       3572      195.7
+Range  Spark               2842.6       2754       3607      206.7
+kNN    Spark                  N/A
+
+## SPEEDUP: LiLIS-K vs Spark Vanilla (NYC cluster)
+----------------------------------------------------------------------
+LiLIS-K NYC: Point=780ms | Range=743ms
+
+  Point: LiLIS 780ms vs Spark 2,842ms → 3.6x faster
+  Range: LiLIS 743ms vs Spark 2,843ms → 3.8x faster
+
+## SO SÁNH: Spark Vanilla vs Sedona-N
+----------------------------------------------------------------------
+Sedona-N NYC: Point=7,032ms | Range=7,528ms
+  Point: Spark 2,842ms vs Sedona-N 7,032ms
+  Range: Spark 2,843ms vs Sedona-N 7,528ms
+  → Paper: Spark ≈ Sedona-N (similar brute-force)
+
+## PAPER REFERENCE (Figure 4)
+----------------------------------------------------------------------
+Figure 4: Spark throughput ~10^1 jobs/min (lowest)
+          Sedona-N throughput ~10^1 jobs/min
+          LiLIS-K throughput ~10^3 jobs/min (highest)
+Takeaway 1: LiLIS outperforms Spark by 2-3 orders of magnitude

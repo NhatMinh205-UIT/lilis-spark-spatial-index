@@ -1,0 +1,100 @@
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 16451
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 21739
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 18471
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 16357
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 17843
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 19114
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 19281
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 18612
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 16786
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 18200
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 18810
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 20919
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 17067
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 18234
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 16297
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 16706
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 21015
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 16907
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 17825
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 16258
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 16449
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 21057
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 16828
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 17969
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 16449
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 18657
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 18881
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 19200
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 15879
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 18618
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 18812
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 18804
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 18795
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 15946
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 18260
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 18823
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 19337
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 18248
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 16372
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 17587
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 16185
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 21057
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 16223
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 18433
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 15637
+--------------------------------------chi_fullbuild QPIndexBuild:
+Index build time : 16176
+--------------------------------------chi_fullbuild KPIndexBuild:
+Index build time : 21538
+--------------------------------------chi_fullbuild RPIndexBuild:
+Index build time : 16857
+--------------------------------------chi_fullbuild FPIndexBuild:
+Index build time : 18353
+--------------------------------------chi_fullbuild APIndexBuild:
+Index build time : 16142

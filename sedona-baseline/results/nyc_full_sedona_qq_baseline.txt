@@ -1,0 +1,55 @@
+======================================================================
+SEDONA-QQ BASELINE — nyc_full
+Index:       Quad-tree (IndexType.QUADTREE)
+Partitioner: Quad-tree (GridType.QUADTREE)
+Runs=10 | Warmup=2 | Range_half=0.0065
+NOTE: kNN NOT supported by Quad-tree index → N/A
+======================================================================
+
+## BUILD TIME (Figure 9)
+--------------------------------------------------
+  Sedona-QQ build: 89,250ms (89.3s)
+  Paper ref:       ~60,000-80,000ms (~60-80s)
+  LiLIS-K build NYC LAN: ~38,314ms (~38s)
+  → LiLIS-K vs Sedona-QQ build: 2.3x faster
+
+## QUERY TIME (Figure 4)
+----------------------------------------------------------------------
+Query                     Avg(ms)        Min        Max        Std
+------------------------------------------------------------
+Point  Sedona-QQ           7746.0       7350       9053      477.0
+Range  Sedona-QQ           7775.0       6865       8677      460.4
+kNN    Sedona-QQ              N/A
+
+## SPEEDUP: LiLIS-K (local) vs Sedona-QQ (local)
+----------------------------------------------------------------------
+LiLIS-K local NYC (nyc_full_query_comparison_local.txt):
+  Point: ~1,116ms | Range: ~1,177ms | kNN: ~1,114ms
+
+  Point : LiLIS-K 1,116ms vs Sedona-QQ 7,746ms → LiLIS 6.9x faster
+  Range : LiLIS-K 1,177ms vs Sedona-QQ 7,775ms → LiLIS 6.6x faster
+  kNN   : N/A (Quad-tree không support kNN)
+
+## SEDONA-QQ vs SEDONA-N (so sánh nội bộ Sedona)
+----------------------------------------------------------------------
+Sedona-N NYC (nyc_full_sedona_n_baseline.txt):
+  Point: ~12,929ms | Range: ~???,???ms (pending fix)
+
+  Point : Sedona-QQ 7,746ms vs Sedona-N 12,929ms
+  → Index help: 1.67x
+
+## PAPER REFERENCE (Figure 4, Figure 9)
+----------------------------------------------------------------------
+Figure 4 (NYC 300M) — log scale (10^4 ms range):
+  Sedona-QQ Point: ~10,000-100,000ms
+  Sedona-QQ Range: ~10,000-100,000ms
+  LiLIS-K   Range: ~472ms
+  → Paper speedup: ~1,000x (2-3 orders of magnitude)
+
+Figure 9 (Build cost):
+  Sedona-QQ build: ~60-80s
+  LiLIS-K   build: ~50s
+  → Paper: LiLIS 1.5-2x faster to build
+
+Takeaway 1: LiLIS outperforms Sedona by 2-3 orders of magnitude
+Takeaway 5: LiLIS build cost faster than Sedona (1.5-2x)

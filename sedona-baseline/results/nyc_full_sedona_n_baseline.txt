@@ -1,0 +1,20 @@
+======================================================================
+SEDONA-N BASELINE — nyc_full
+Runs=10 | Warmup=2 | kNN k=10
+Mode: Sedona-N — brute-force scan, NO spatial index
+======================================================================
+
+Query                     Avg(ms)        Min        Max        Std
+------------------------------------------------------------
+Point  Sedona-N           12564.6      11577      14496      968.1
+Range  Sedona-N           13877.7      12432      15154      827.9
+kNN    Sedona-N           14529.9      13407      16181      982.6
+
+======================================================================
+LiLIS-K vs Sedona-N (nyc_full):
+------------------------------------------------------------
+  Point  LiLIS-K: ~780ms  | Sedona-N: 12565ms → 16x faster
+  Range  LiLIS-K: ~743ms  | Sedona-N: 13878ms → 19x faster
+  kNN    LiLIS-K: ~566ms  | Sedona-N: 14530ms → 26x faster
+
+Paper (NYC 300M): Sedona-N Range ~521,282ms vs LiLIS 472ms = 1,100x
